@@ -1,4 +1,4 @@
-package com.Interface;
+package com.interface;
 
 public interface Handphone {
     int MAX_VOLUME = 100;

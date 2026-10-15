@@ -1,10 +1,10 @@
-package Interface;
+package com.Interface;
 
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Handphone redmiNote8 = new Xiaomi();
+        Handphone redmiNote8 =  new Xiaomi();
         pengguna dian = new pengguna(redmiNote8);
 
         dian.nyalakanHP();
